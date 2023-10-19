@@ -1,0 +1,10 @@
+[
+null,
+{"id":1,"expanded":true,"name":"TOWN","order":1,"parentId":0,"scrollX":411.55555555555554,"scrollY":320.8888888888889},
+{"id":2,"expanded":true,"name":"ARCADE","order":6,"parentId":1,"scrollX":507.55555555555554,"scrollY":423.55555555555554,"quick":false},
+{"id":3,"expanded":false,"name":"SCHOOL","order":2,"parentId":1,"scrollX":0,"scrollY":0,"quick":false},
+{"id":4,"expanded":true,"name":"AUCTION","order":4,"parentId":1,"scrollX":0,"scrollY":0,"quick":false},
+{"id":5,"expanded":true,"name":"PROP","order":3,"parentId":1,"scrollX":0,"scrollY":0,"quick":false},
+{"id":6,"expanded":true,"name":"GNARS","order":5,"parentId":1,"scrollX":0,"scrollY":0,"quick":false},
+{"id":7,"expanded":true,"name":"LILS","order":7,"parentId":1,"scrollX":507.55555555555554,"scrollY":344.44444444444446,"quick":false}
+]

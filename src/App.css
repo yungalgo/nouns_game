@@ -1,0 +1,79 @@
+/* src/App.css */
+
+body {
+  /* existing styles */
+  background-color: #c0c0c0;
+  /* or another color that suits the retro theme */
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAQElEQVR42mP8//8/AwgwMV8aTIwGDPz//z8Dsn378z8DSRjSZDIyMvz//z9D6t379/8gVgaGofEPhmHo9W8Yhq//MOzPvwHphwI+xSktWwAAAABJRU5ErkJggg==');
+}
+
+.container {
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hackathon-title {
+  font-size: 2em;
+  margin: 0;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  color: #000080;
+  border: 3px solid #000080;
+  padding: 10px;
+  background-color: #f0f0f0;
+  box-shadow: 3px 3px #888888;
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-right: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-right: 15px;
+  display: flex;
+  align-items: center;
+  width: calc(100% - 6px);
+  justify-content: center;
+}
+
+.iframe-container {
+  margin-top: 20px;
+  width: 1000px;
+  height: 768px;
+  border: 3px solid #000080;
+  position: relative;
+  box-shadow: 3px 3px #888888;
+  background: #f0f0f0;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.wallet-button:hover {
+  transform: translate(1px, 1px);
+  box-shadow: 1px 1px #888888;
+}
+
+.title-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}
+
+
+.wallet-button {
+  position: absolute;
+  right: 20px;
+  /* This gives the button padding on its right side */
+}
